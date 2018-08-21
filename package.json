@@ -8,6 +8,10 @@
     "precommit": "tslint -p . --fix; git-clang-format --extensions ts",
     "clean": "rm -rf node_modules/ Gulpfile.js *.spec.js"
   },
+"repository" :  {
+   "type" : "git",
+   "url" : "https://github.com/alkaperl/gbkuai-shadowsocksconfig.git"
+}, 
   "devDependencies": {
     "@types/base-64": "^0.1.2",
     "@types/gulp": "^4.0.4",
